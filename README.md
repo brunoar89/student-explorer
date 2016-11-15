@@ -20,17 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-StudentExplorer.find_by_name('students.csv', 'Enrico Pedro Henrique Moura')
+    StudentExplorer.find_by_name('students.csv', 'Enrico Pedro Henrique Moura')
 
-StudentExplorer.find_by_email('students.csv', 'enrico-pedro79@randstad.com.br')
+    StudentExplorer.find_by_email('students.csv', 'enrico-pedro79@randstad.com.br')
 
-StudentExplorer.find_by_cpf('students.csv', '347.651.835-30')
+    StudentExplorer.find_by_cpf('students.csv', '347.651.835-30')
 
-StudentExplorer.find_by_rg('students.csv', '31.393.753-9')
+    StudentExplorer.find_by_rg('students.csv', '31.393.753-9')
 
-StudentExplorer.find_by_phone('students.csv', '(61) 9845-0738')
+    StudentExplorer.find_by_phone('students.csv', '(61) 9845-0738')
 
-StudentExplorer.find_by_coefficient('students.csv', '60')
+    StudentExplorer.find_by_coefficient('students.csv', '60')
 
 ## Development
 
