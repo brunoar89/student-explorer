@@ -1,8 +1,6 @@
 # StudentExplorer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/student_explorer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Gem para manipulação de estudantes oriundos de um arquivo CSV.
 
 ## Installation
 
@@ -22,7 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+StudentExplorer.find_by_name('students.csv', 'Enrico Pedro Henrique Moura')
+
+StudentExplorer.find_by_email('students.csv', 'enrico-pedro79@randstad.com.br')
+
+StudentExplorer.find_by_cpf('students.csv', '347.651.835-30')
+
+StudentExplorer.find_by_rg('students.csv', '31.393.753-9')
+
+StudentExplorer.find_by_phone('students.csv', '(61) 9845-0738')
+
+StudentExplorer.find_by_coefficient('students.csv', '60')
 
 ## Development
 
@@ -38,4 +46,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
